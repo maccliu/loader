@@ -1,7 +1,7 @@
 {
   "name": "@didaui/loader",
   "version": "1.0.0",
-  "description": "",
+  "description": "A common loader",
   "license": "MIT",
   "keywords": ["didaui", "loader"],
   "repository": "https://github.com/maccliu/loader.git",
