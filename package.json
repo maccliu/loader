@@ -1,0 +1,9 @@
+{
+  "name": "@didaui/loader",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "keywords": ["didaui", "loader"],
+  "repository": "https://github.com/maccliu/loader.git",
+  "author": "Macc Liu <maccliu@qq.com>"
+}
