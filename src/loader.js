@@ -46,7 +46,7 @@
    * 
    * It could be:
    * -- "html dir"
-   * -- "configJs dir"
+   * -- "config dir"
    * -- "config()"
    */
   var baseDirExplain = "html dir";
@@ -58,7 +58,7 @@
   if (typeof me.dataset.config == 'string') {
     configJs = realpath(me.dataset.config, baseDir);
     baseDir = realdir(configJs);
-    baseDirExplain = "configJs dir";
+    baseDirExplain = "config dir";
   }
 
   /**
