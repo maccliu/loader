@@ -1,18 +1,41 @@
+- [@didaui/loader](#didauiloader)
+  - [usage](#usage)
+    - [`<script src="loader.js" />`](#script-srcloaderjs-)
+    - [`loader()` function](#loader-function)
+  - [loader.config()](#loaderconfig)
+    - [baseDir](#basedir)
+
+-----------------
+
 # @didaui/loader
 
 A loader.
 
-## Usage
+## usage
+
+### `<script src="loader.js" />`
+
+Import the `loader.js` or `loader.min.js` script.  
+用 script 导入 `loader.js` 或者 `loader.min.js`.
+
+> If you want to be compatible with IE, please add a specified ID `loaderjs` to the script element. Because the IE family do not support `document.currentScript`.  
+> 如果想要兼容 IE，**务必**要把 script 标签加上 `id="loaderjs"`!
 
 ```html
-<script src="path/to/loader.js" data-config="path/to/config.js" />
+<script id="loaderjs" src="path/to/loader.js" data-config="path/to/config.js" />
+```
 
+### `loader()` function
+
+```html
 <script>
   loader(["jquery", "jquery.form"], readyFn, failFn);
 </script>
 ```
 
-## baseDir
+## loader.config()
+
+### baseDir
 
 baseDir 的取值规则如下：
 
