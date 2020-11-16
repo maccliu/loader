@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "exclude": [
+          // exclude _typeof
+          "transform-typeof-symbol"
+        ]
+      }
+    ]
+  ],
+
+  // removes 'use strict' added by babel
+  "sourceType": "script",
+
+  // plugins
+  "plugins": [
+    // remove all console.log(...), console.xxx(...)
+    ["transform-remove-console", { "exclude": ["error", "warn"] }]
+  ]
+}

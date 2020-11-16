@@ -1,9 +1,23 @@
 {
   "name": "@didaui/loader",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A common loader",
   "license": "MIT",
-  "keywords": ["didaui", "loader"],
   "repository": "https://github.com/maccliu/loader.git",
+  "keywords": [
+    "didaui",
+    "loader"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2"
+  },
   "author": "Macc Liu <maccliu@qq.com>"
 }
