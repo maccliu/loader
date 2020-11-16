@@ -30,7 +30,6 @@ function task_clean(done) {
 
 function task_src(done) {
   src("src/loader.js")
-    .pipe(babel())
     .pipe(dest("dist/"))
 
     // minify
