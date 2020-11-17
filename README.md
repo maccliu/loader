@@ -1,15 +1,6 @@
-- [@didaui/loader](#didauiloader)
-  - [usage](#usage)
-    - [`<script src="loader.js" />`](#script-srcloaderjs-)
-    - [`loader()` function](#loader-function)
-  - [loader.config()](#loaderconfig)
-    - [baseDir](#basedir)
-
------------------
-
 # @didaui/loader
 
-A loader.
+A web asset loader.
 
 ## usage
 
