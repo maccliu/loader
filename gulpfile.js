@@ -14,7 +14,7 @@ const rename = require("gulp-rename");
 const uglify = require("gulp-uglify");
 const uglify_conf = {
   output: {
-    comments: "some",
+    comments: /^[ \*]{0,}\!/, // 保留以!开头的注释
   },
 };
 const babel = require("gulp-babel");
